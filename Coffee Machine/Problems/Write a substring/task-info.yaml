@@ -1,0 +1,13 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    test_string = input()
+    # fill the value of the variable below
+    substring = '...'
+    print(substring in test_string)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8835
+status: Solved
+record: -1

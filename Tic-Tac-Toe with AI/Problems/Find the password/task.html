@@ -1,0 +1,20 @@
+<b>Find the password</b> <a class=right href="https://hyperskill.org/learn/step/10334">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p><span style="background-color: #ffffff; color: #222222; font-size: 12pt; font-variant: normal;"></span></p> 
+  <p>Imagine that you are a hacker and you've got access to a web server written in Python. The problem is that it asks for a password which you don't know. However, this server is open source so you know that there is a <code class="language-python">wrong_password()</code> function which takes a password and checks it against <code class="language-python">real_password</code>.</p> 
+  <pre><code class="language-python">def wrong_password(password):
+    return (password == "" or (not password and real_password)) or password != real_password</code></pre> 
+  <p>You can access this function. Write your code inside the <code class="language-python">solve()</code> function: find the <code class="language-python">real_password</code> and <strong>print </strong>it. Your program shouldn't read any input or call the function, just implement it.</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-911').style.display='inline'"> Hint </button> </p>
+  <div id="hint-911" style="display:none;">
+   Think about an argument that can be passed to the 
+   <code class="language-python">wrong_password()</code> function so that the function returns the 
+   <code class="language-python">real_password</code>. Remember that "and" and "or" operators return one of their operands. Refer to the tables showing which operands the operators return in different cases.
+  </div>
+  <p></p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/10327">Show topic summary</a>

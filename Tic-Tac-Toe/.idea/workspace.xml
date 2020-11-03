@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1389789-e943-4d22-ace0-1efebc696827" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Simple Banking System/Problems (1)/Nested/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simple Banking System/Problems (1)/Nested/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simple Banking System/Problems (1)/Nested/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simple Banking System/Problems (1)/Nested/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simple Banking System/Problems (1)/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simple Banking System/Problems/Nested/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simple Banking System/Problems/Nested/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simple Banking System/Problems/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simple Banking System/course-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simple Banking System/course-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simple Banking System/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Tic-Tac-Toe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/A list of words/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/A list of words/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/A list of words/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/A list of words/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/A lot of nested lists/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/A lot of nested lists/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/A lot of nested lists/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/A lot of nested lists/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Accessing elements of a matrix/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Accessing elements of a matrix/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Accessing elements of a matrix/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Accessing elements of a matrix/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/CapWords/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/CapWords/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/CapWords/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/CapWords/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Competition/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Competition/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Competition/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Competition/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Conditions &amp; nested lists/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Conditions &amp; nested lists/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Conditions &amp; nested lists/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Conditions &amp; nested lists/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Even numbers/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Even numbers/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Even numbers/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Even numbers/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Fill the blanks/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Fill the blanks/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Fill the blanks/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Fill the blanks/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Find positions/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Find positions/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Find positions/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Find positions/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Find the length/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Find the length/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Find the length/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Find the length/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Find words/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Find words/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Find words/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Find words/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Fix the mistakes/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Fix the mistakes/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Fix the mistakes/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Fix the mistakes/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Flip/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Flip/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Flip/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Flip/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Good programmer/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Good programmer/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Good programmer/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Good programmer/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Heads or Tails/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Heads or Tails/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Heads or Tails/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Heads or Tails/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/How many days?/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/How many days?/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/How many days?/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/How many days?/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Length/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Length/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Length/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Length/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Lottery/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Lottery/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Lottery/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Lottery/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Odd numbers/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Odd numbers/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Odd numbers/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Odd numbers/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Plus one/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Plus one/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Plus one/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Plus one/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Prepositional genitive/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Prepositional genitive/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Prepositional genitive/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Prepositional genitive/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Prime numbers/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Prime numbers/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Prime numbers/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Prime numbers/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Print a sign/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Print a sign/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Print a sign/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Print a sign/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Running total/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Running total/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Running total/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Running total/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Spellchecker/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Spellchecker/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Spellchecker/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Spellchecker/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Straight A's/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Straight A's/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Straight A's/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Straight A's/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/String tricks/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/String tricks/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/String tricks/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/String tricks/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The mean/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The mean/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The mean/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The mean/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Threefold/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Threefold/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Threefold/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Threefold/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Triangle/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Triangle/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Triangle/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Triangle/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Vowels/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Vowels/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Vowels/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Vowels/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/What day is it?/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/What day is it?/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/What day is it?/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/What day is it?/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/mixedCase/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/mixedCase/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/mixedCase/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/mixedCase/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/Fight!/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/Fight!/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/Fight!/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/First move!/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/First move!/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/First move!/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/User is a gamemaster/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/User is a gamemaster/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/User is a gamemaster/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/Welcome to the battlefield!/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/Welcome to the battlefield!/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/Welcome to the battlefield!/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/What's up on a field?/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/What's up on a field?/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/What's up on a field?/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/task/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tic-Tac-Toe/task/tictactoe/tictactoe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zookeeper/.idea/Zookeeper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Hangman/Error!/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Hangman/Error!/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Hangman/Keep trying/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Hangman/Keep trying/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Hangman/Menu, please/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Hangman/Menu, please/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Hangman/The value of life/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Hangman/The value of life/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Hangman/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Hangman/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Hangman/task/hangman/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Hangman/task/hangman/hangman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Hangman/task/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Hangman/task/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Chaos/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Chaos/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Chaos/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Chaos/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Chaos/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Chaos/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Counting unique/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Counting unique/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Counting unique/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Counting unique/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Counting unique/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Counting unique/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/English contractions/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/English contractions/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/English contractions/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/English contractions/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/English contractions/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/English contractions/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Letters/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Letters/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Letters/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Letters/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Memory test/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Memory test/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Memory test/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Memory test/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Memory test/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Memory test/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Mystery set/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Mystery set/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Mystery set/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Mystery set/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Mystery set/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Mystery set/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Visual poetry/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Visual poetry/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Visual poetry/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Visual poetry/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/Visual poetry/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/Visual poetry/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/Problems/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/Problems/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/course-remote-info.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ab69o48dJUEt3V2qQSUOjQHgRt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunManager" selected="Python.tictactoe">
+    <configuration name="task (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Tic-Tac-Toe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problems/Triangle" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problems/Triangle/task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Tic-Tac-Toe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problems/Prime numbers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problems/Prime numbers/task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Tic-Tac-Toe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problems/Lottery" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problems/Lottery/task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Tic-Tac-Toe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problems/Running total" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problems/Running total/task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tictactoe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Tic-Tac-Toe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tic-Tac-Toe/task/tictactoe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tic-Tac-Toe/task/tictactoe/tictactoe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tictactoe" />
+        <item itemvalue="Python.task (4)" />
+        <item itemvalue="Python.task (3)" />
+        <item itemvalue="Python.task (2)" />
+        <item itemvalue="Python.task (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596999354737">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1596999354737" />
+    <state x="526" y="279" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596803519128">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="526" y="279" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1596803519128" />
+    <state x="93" y="23" key="FileDocumentManager.FileCacheConflict" timestamp="1596803774006">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="93" y="23" key="FileDocumentManager.FileCacheConflict/0.23.1680.1027@0.23.1680.1027" timestamp="1596803774006" />
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom" timestamp="1597224127750">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1597224127750" />
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597152346973" />
+    <state width="1638" height="346" key="GridCell.Tab.0.center" timestamp="1597224127749">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1597224127749" />
+    <state width="1638" height="294" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597152346971" />
+    <state width="1638" height="346" key="GridCell.Tab.0.left" timestamp="1597224127748">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1597224127748" />
+    <state width="1638" height="294" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597152346971" />
+    <state width="1638" height="346" key="GridCell.Tab.0.right" timestamp="1597224127749">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1597224127749" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597152346972" />
+    <state width="1638" height="346" key="GridCell.Tab.1.bottom" timestamp="1597224127752">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1597224127752" />
+    <state width="1638" height="346" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1596885967516" />
+    <state width="1638" height="346" key="GridCell.Tab.1.center" timestamp="1597224127751">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1597224127751" />
+    <state width="1638" height="346" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1596885967515" />
+    <state width="1638" height="346" key="GridCell.Tab.1.left" timestamp="1597224127750">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1597224127750" />
+    <state width="1638" height="346" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1596885967514" />
+    <state width="1638" height="346" key="GridCell.Tab.1.right" timestamp="1597224127751">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1597224127751" />
+    <state width="1638" height="346" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1596885967515" />
+    <state x="627" y="265" key="RollbackChangesDialog" timestamp="1596750396737">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="627" y="265" key="RollbackChangesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1596750396737" />
+    <state x="341" y="182" key="SettingsEditor" timestamp="1596803802369">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1596633779866" />
+    <state x="341" y="182" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1596803802369" />
+    <state x="840" y="23" width="840" height="1027" key="dock-window-1" timestamp="1596656144133">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="840" y="23" width="840" height="1027" key="dock-window-1/0.23.1680.1027@0.23.1680.1027" timestamp="1596656144133" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1597009808959">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1597009808959" />
+    <state x="505" y="251" width="670" height="662" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1596807697017" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tic-Tac-Toe/task/tictactoe/tictactoe.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Problems/Running total/task.py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

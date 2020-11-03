@@ -1,0 +1,14 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    Class House():
+        construction = "building"
+        elevator = True
+
+    h = House("building")
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6665
+status: Solved
+record: -1

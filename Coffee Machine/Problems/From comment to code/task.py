@@ -1,0 +1,2 @@
+# prints "ok"
+print("ok")

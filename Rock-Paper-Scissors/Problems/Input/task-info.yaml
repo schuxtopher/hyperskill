@@ -1,0 +1,13 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: '# write the code here'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8338
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8338">JetBrains
+    Academy</a></html>
+  time: Fri, 09 Oct 2020 08:56:37 UTC
+record: -1
