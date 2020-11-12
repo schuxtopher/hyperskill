@@ -1,0 +1,16 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    import requests
+
+    from bs4 import BeautifulSoup
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10215
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/10215">JetBrains
+    Academy</a></html>
+  time: Wed, 11 Nov 2020 23:12:48 UTC
+record: -1

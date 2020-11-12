@@ -34,6 +34,9 @@ files:
                                          "where ... is the name of the language.")
             reply = reply.lower().strip()
             bonjour_index = reply.index('bonjour')
+            if 'examples' not in reply[bonjour_index:]:
+                return CheckResult.wrong("Context examples should follow translations.\n"
+                                         "It looks like in your program they go in the opposite order.")
             example_index = reply[bonjour_index:].index('examples') + bonjour_index
             translations_slice = reply[bonjour_index:example_index]
             if len(translations_slice.split('\n')) < 4:
