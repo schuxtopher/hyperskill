@@ -3,66 +3,93 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def menu():
-    languages = ['Arabic', 'German', 'English', 'Spanish', 'French',
-                 'Hebrew', 'Japanese', 'Dutch', 'Polish', 'Portuguese',
-                 'Romanian', 'Russian', 'Turkish']
+class Translator:
 
-    print("Hello, you're welcome to the translator. Translator supports:")
-    for i, lang in enumerate(languages):
-        print(f"{i + 1}. {lang}")
+    def __init__(self):
+        self.search_url = 'https://context.reverso.net/translation'
+        self.languages = ['Arabic', 'German', 'English', 'Spanish', 'French',
+                          'Hebrew', 'Japanese', 'Dutch', 'Polish', 'Portuguese',
+                          'Romanian', 'Russian', 'Turkish']
+        self.src = ''
+        self.wrd = ''
 
-    print("Type the number of your language:")
-    src = languages[int(input()) - 1]
-    print("Type the number of language you want to translate to:")
-    trg = languages[int(input()) - 1]
-    print("Type the word your want to translate:")
-    wrd = input()
-    print()
+    def menu(self):
+        print("Hello, you're welcome to the translator. Translator supports:")
+        for i, lang in enumerate(self.languages):
+            print(f"{i + 1}. {lang}")
 
-    r = request_translation(src.lower(), trg.lower(), wrd)
+        print("Type the number of your language:")
+        self.src = self.languages[int(input()) - 1]
 
-    if r.status_code:
-        # print(request.status_code, 'OK', '\n')
-        translations, examples = mine_translation(r)
-        print_translation(trg, translations, examples)
+        print("Type the number of language you want to translate to "
+              "or '0' to translate to all languages:")
+        if trg := int(input()):
+            trg = self.languages[trg - 1]
+        else:
+            trg = 'all'
 
+        print("Type the word your want to translate:")
+        self.wrd = input()
+        print()
 
-def request_translation(source, target, word):
-    base_url = 'https://context.reverso.net/translation'
-    lang_url = '/' + source + '-' + target
-    word_url = '/' + word
-    url = base_url + lang_url + word_url
+        if trg == 'all':
+            self.get_all_translations()
+            with open(f"{self.wrd}.txt", 'r', encoding='utf-8') as f:
+                print(f.read())
+        else:
+            translations, examples = self.get_translation(trg)
+            self.print_translation(trg, translations, examples)
 
-    headers = {'user-agent': 'my-app/0.0.1'}
+    def get_translation(self, target):
+        url = f"{self.search_url}/{self.src.lower()}-{target.lower()}/{self.wrd}"
+        headers = {'user-agent': 'my-app/0.0.1'}
 
-    return requests.get(url, headers=headers)
+        r = requests.get(url, headers=headers)
 
+        if r.status_code:
+            # print(request.status_code, 'OK', '\n')
+            translations, examples = self.mine_translation(r)
+            return translations, examples
 
-def mine_translation(request):
-    soup = BeautifulSoup(request.content, 'html.parser')
-    translation_content = soup.find(id="translations-content")
-    examples_content = soup.find(id="examples-content")
+    def get_all_translations(self):
+        with open(f'{self.wrd}.txt', 'w', encoding='utf-8') as f:
+            for lang in self.languages:
+                if lang == self.src:
+                    continue
+                translations, examples = self.get_translation(lang)
 
-    translations = translation_content.text.split()
+                print(lang + " Translations:", file=f)
+                print(translations[0], '\n', file=f)
+                print(lang + " Example:", file=f)
+                print(f"{examples[0]}:", file=f)
+                print(f"{examples[1]}", '\n', file=f)
 
-    examples = examples_content.text.split('\n')
-    # remove empty elements and strip unnecessary spaces from example sentences
-    examples = list(map(str.strip, filter(None, examples)))
+    @staticmethod
+    def mine_translation(request):
+        soup = BeautifulSoup(request.content, 'html.parser')
+        translation_content = soup.find(id="translations-content")
+        examples_content = soup.find(id="examples-content")
 
-    return translations, examples
+        translations = translation_content.text.split()
 
+        examples = examples_content.text.split('\n')
+        # remove empty elements and strip unnecessary spaces from example sentences
+        examples = list(map(str.strip, filter(None, examples)))
 
-def print_translation(language, translations, examples):
-    print(language + " Translations:")
-    print('\n'.join(translations[:5]), '\n')
+        return translations, examples
 
-    print(language + " Examples:")
-    for i, sentence in enumerate(examples[:10]):
-        print(sentence)
-        if i % 2:
-            print()
+    @staticmethod
+    def print_translation(language, translations, examples):
+        print(language + " Translations:")
+        print('\n'.join(translations[:5]), '\n')
+
+        print(language + " Examples:")
+        for i, sentence in enumerate(examples[:10]):
+            print(sentence)
+            if i % 2:
+                print()
 
 
 if __name__ == '__main__':
-    menu()
+    translator = Translator()
+    translator.menu()
