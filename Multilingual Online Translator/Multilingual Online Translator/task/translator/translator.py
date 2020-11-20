@@ -1,17 +1,28 @@
 import requests
+import sys
 
 from bs4 import BeautifulSoup
 
 
 class Translator:
-
-    def __init__(self):
+    def __init__(self, source, target, word):
         self.search_url = 'https://context.reverso.net/translation'
         self.languages = ['Arabic', 'German', 'English', 'Spanish', 'French',
                           'Hebrew', 'Japanese', 'Dutch', 'Polish', 'Portuguese',
                           'Romanian', 'Russian', 'Turkish']
-        self.src = ''
-        self.wrd = ''
+        self.src = source
+        self.trg = target
+        self.wrd = word
+        self.start()
+
+    def start(self):
+        if self.trg == 'all':
+            self.get_all_translations()
+            with open(f"{self.wrd}.txt", 'r', encoding='utf-8') as f:
+                print(f.read())
+        else:
+            translations, examples = self.get_translation(self.trg)
+            self.print_translation(self.trg, translations, examples)
 
     def menu(self):
         print("Hello, you're welcome to the translator. Translator supports:")
@@ -24,20 +35,20 @@ class Translator:
         print("Type the number of language you want to translate to "
               "or '0' to translate to all languages:")
         if trg := int(input()):
-            trg = self.languages[trg - 1]
+            self.trg = self.languages[trg - 1]
         else:
-            trg = 'all'
+            self.trg = 'all'
 
         print("Type the word your want to translate:")
         self.wrd = input()
         print()
 
-        if trg == 'all':
+        if self.trg == 'all':
             self.get_all_translations()
             with open(f"{self.wrd}.txt", 'r', encoding='utf-8') as f:
                 print(f.read())
         else:
-            translations, examples = self.get_translation(trg)
+            translations, examples = self.get_translation()
             self.print_translation(trg, translations, examples)
 
     def get_translation(self, target):
@@ -54,7 +65,7 @@ class Translator:
     def get_all_translations(self):
         with open(f'{self.wrd}.txt', 'w', encoding='utf-8') as f:
             for lang in self.languages:
-                if lang == self.src:
+                if lang.lower() == self.src.lower():
                     continue
                 translations, examples = self.get_translation(lang)
 
@@ -91,5 +102,5 @@ class Translator:
 
 
 if __name__ == '__main__':
-    translator = Translator()
-    translator.menu()
+    args = sys.argv
+    translator = Translator(args[1], args[2], args[3])

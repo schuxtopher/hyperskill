@@ -73,6 +73,37 @@ files:
     if __name__ == '__main__':
         TranslatorTest('translator.translator').run_tests()
   learner_created: false
+- name: hello.txt
+  visible: true
+  text: "Arabic Translations:\nمرحبا \n\nArabic Example:\nWell, hello, old-school\
+    \ racist.:\nحسنا، مرحبا يا تلميذة المدرسة العنصريّة - الأمر يسري بدمهم! \n\nGerman\
+    \ Translations:\nhallo \n\nGerman Example:\nFinally got a personalized hello from\
+    \ Earl.:\nIch habe endlich ein personifiziertes hallo von Earl bekommen. \n\n\
+    Spanish Translations:\nhola \n\nSpanish Example:\nWell, hello, Miss Anchor-liar.:\n\
+    Bien, hola, señorita presentadora de mentiras. \n\nFrench Translations:\nbonjour\
+    \ \n\nFrench Example:\nSay goodbye to anti-aliasing and hello to naturally crisp\
+    \ graphics.:\nDites adieu à l'anti-crénelage et bonjour à des graphismes naturellement\
+    \ nets. \n\nHebrew Translations:\nשלום \n\nHebrew Example:\nHow come they never\
+    \ say hello?:\nאיך זה שהן אף פעם לא אומרות שלום. \n\nJapanese Translations:\nこ\
+    んにちは \n\nJapanese Example:\nThe little boy said hello to me.:\n小さな男の子が私にこんにちはと\
+    言った。 \n\nDutch Translations:\ndag \n\nDutch Example:\nWhich in Hawaiian means\
+    \ hello and goodbye.:\nDat betekent hallo en tot ziens in het Hawaiiaans. \n\n\
+    Polish Translations:\ncześć \n\nPolish Example:\nYou had me at \"hello\".:\nWystarczył\
+    o mi twoje \"cześć\". \n\nPortuguese Translations:\nolá \n\nPortuguese Example:\n\
+    That was my last kiss hello.:\nPois eu garanto que aquele foi o meu último beijo\
+    \ de olá. \n\nRomanian Translations:\nsalut \n\nRomanian Example:\nI came by to\
+    \ say hello.:\nAm avut o pauză de masă și am trecut să te salut. \n\nRussian Translations:\n\
+    привет \n\nRussian Example:\nWhy, hello, there, Admiral.:\nА, Адмирал, привет\
+    , что здесь делаешь. \n\nTurkish Translations:\nselam \n\nTurkish Example:\nSay\
+    \ \"hello\" from Tito Spadola.:\nTito Spadola'dan, \"selam\" söyleyeceğim. \n\n"
+  learner_created: true
+- name: translator/__init__.py
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/99/stages/548/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/99/stages/548/implement">JetBrains
+    Academy</a>
+  time: Fri, 20 Nov 2020 15:35:49 UTC
 record: -1

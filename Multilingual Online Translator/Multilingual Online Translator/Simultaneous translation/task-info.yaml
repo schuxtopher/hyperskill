@@ -68,13 +68,7 @@ files:
     if __name__ == '__main__':
         TranslatorTest('translator.translator').run_tests()
   learner_created: false
-- name: translator/hello.txt
-  visible: true
-  learner_created: true
 - name: hello.txt
-  visible: true
-  learner_created: true
-- name: translator/__init__.py
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/projects/99/stages/547/implement
@@ -82,5 +76,5 @@ status: Solved
 feedback:
   message: Congratulations! Continue on <a href="https://hyperskill.org/projects/99/stages/547/implement">JetBrains
     Academy</a>
-  time: Thu, 19 Nov 2020 12:56:23 UTC
-record: -1
+  time: Thu, 19 Nov 2020 13:00:31 UTC
+record: 5
