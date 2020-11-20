@@ -16,13 +16,26 @@ class Translator:
         self.start()
 
     def start(self):
-        if self.trg == 'all':
-            self.get_all_translations()
-            with open(f"{self.wrd}.txt", 'r', encoding='utf-8') as f:
-                print(f.read())
-        else:
-            translations, examples = self.get_translation(self.trg)
-            self.print_translation(self.trg, translations, examples)
+        if self.src.capitalize() not in self.languages:
+            print(f"Sorry, the program doesn't support {self.src}")
+            return
+
+        if self.trg.capitalize() not in self.languages + ['All']:
+            print(f"Sorry, the program doesn't support {self.trg}")
+            return
+
+        try:
+            if self.trg == 'all':
+                self.get_all_translations()
+                with open(f"{self.wrd}.txt", 'r', encoding='utf-8') as f:
+                    print(f.read())
+            else:
+                translations, examples = self.get_translation(self.trg)
+                self.print_translation(self.trg, translations, examples)
+        except ConnectionError:
+            print("Something wrong with your internet connection")
+        except AttributeError:
+            print(f"Sorry, unable to find {self.wrd}")
 
     def menu(self):
         print("Hello, you're welcome to the translator. Translator supports:")
@@ -103,4 +116,5 @@ class Translator:
 
 if __name__ == '__main__':
     args = sys.argv
+    print(args)
     translator = Translator(args[1], args[2], args[3])

@@ -97,13 +97,10 @@ files:
     , что здесь делаешь. \n\nTurkish Translations:\nselam \n\nTurkish Example:\nSay\
     \ \"hello\" from Tito Spadola.:\nTito Spadola'dan, \"selam\" söyleyeceğim. \n\n"
   learner_created: true
-- name: translator/__init__.py
-  visible: true
-  learner_created: true
 feedback_link: https://hyperskill.org/projects/99/stages/548/implement
 status: Solved
 feedback:
   message: Congratulations! Continue on <a href="https://hyperskill.org/projects/99/stages/548/implement">JetBrains
     Academy</a>
   time: Fri, 20 Nov 2020 15:35:49 UTC
-record: -1
+record: 6
