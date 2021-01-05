@@ -3,21 +3,29 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/311846/additional_files.json
   is_template_based: false
   use_ide: true
+update_date: Tue, 05 Jan 2021 13:24:49 UTC
 stages:
 - id: 543
   step: 8970
+  is_completed: true
 - id: 544
   step: 8971
+  is_completed: true
 - id: 545
   step: 8972
+  is_completed: true
 - id: 546
   step: 8973
+  is_completed: true
 - id: 547
   step: 8974
+  is_completed: true
 - id: 548
   step: 8975
+  is_completed: true
 - id: 549
   step: 8976
+  is_completed: true
 topics:
   0:
   - title: IDE
@@ -60,10 +68,20 @@ topics:
     theory_id: 6065
   - title: Dictionary methods
     theory_id: 9008
+  - title: Load module
+    theory_id: 6019
+  - title: Create module
+    theory_id: 6057
+  - title: Packages
+    theory_id: 6384
   - title: Introduction to operating systems
     theory_id: 9704
   - title: Command line overview
     theory_id: 8977
+  - title: Parameters and options
+    theory_id: 9746
+  - title: Pip
+    theory_id: 6230
   - title: PyCharm basics
     theory_id: 6193
   - title: Basic data types
@@ -93,16 +111,6 @@ topics:
     theory_id: 6752
   - title: XML
     theory_id: 6901
-  - title: Load module
-    theory_id: 6019
-  - title: Create module
-    theory_id: 6057
-  - title: Packages
-    theory_id: 6384
-  - title: Parameters and options
-    theory_id: 9746
-  - title: Pip
-    theory_id: 6230
   - title: 'Requests: retrieving data'
     theory_id: 8603
   - title: BeautifulSoup
@@ -159,6 +167,8 @@ topics:
   5:
   - title: Command line arguments
     theory_id: 7981
+  - title: Argparse module
+    theory_id: 11389
   - title: Type casting
     theory_id: 6224
   6:
@@ -168,5 +178,7 @@ topics:
     theory_id: 6052
   - title: Exceptions
     theory_id: 6042
+  - title: Built-in exceptions
+    theory_id: 11680
   - title: Exception handling
     theory_id: 6270
