@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    INSTALLED_APPS = [
+        "movies",
+    ]
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6660#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Fri, 08 Jan 2021 19:52:55 UTC
+record: -1

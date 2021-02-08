@@ -1,0 +1,18 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    template = """
+    <html>
+      <div> You have {{ ... }} tasks to do: </div>
+      <div> {{ ... }} </div>
+    </html>
+    """
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10013#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Wed, 13 Jan 2021 22:01:33 UTC
+record: -1

@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    template = """
+      {% extends "" %}
+      {%  %} {{  }} {% include "" %} {%  %}
+    """
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10004#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Fri, 22 Jan 2021 19:35:17 UTC
+record: -1
