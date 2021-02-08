@@ -437,9 +437,6 @@ files:
         """ Reports success """
         print("#educational_plugin test OK")
   learner_created: false
-- name: hypercar/tickets/migrations/__init__.py
-  visible: true
-  learner_created: false
 - name: hypercar/tickets/__init__.py
   visible: true
   learner_created: false
@@ -683,6 +680,15 @@ files:
 
     # Create your models here.
   learner_created: false
+- name: hypercar/db.sqlite3
+  visible: true
+  learner_created: true
+- name: hypercar/tickets/migrations/__init__.py
+  visible: true
+  learner_created: false
 feedback_link: https://hyperskill.org/projects/85/stages/470/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 08 Feb 2021 20:45:51 UTC
 record: -1
