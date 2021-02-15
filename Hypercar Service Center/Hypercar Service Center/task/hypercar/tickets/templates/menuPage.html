@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+</head>
+<body>
+
+    <h2> Menu </h2>
+    <ul>
+        {% load space_to_underscore %}
+        {% for service in services %}
+        <li>
+            <a target="_blank" href="/get_ticket/{{ service | lower | space_to_underscore }}">{{ service }}</a>
+        </li>
+        {% endfor %}
+
+    </ul>
+</body>
+</html>

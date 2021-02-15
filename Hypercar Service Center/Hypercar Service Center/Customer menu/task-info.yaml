@@ -11,9 +11,6 @@ files:
 - name: hypercar/tickets/migrations/__init__.py
   visible: true
   learner_created: false
-- name: hypercar/tickets/__init__.py
-  visible: true
-  learner_created: false
 - name: hypercar/hypercar/urls.py
   visible: true
   text: |
@@ -691,6 +688,27 @@ files:
         """ Reports success """
         print("#educational_plugin test OK")
   learner_created: false
+- name: hypercar/tickets/templates/menuPage.html
+  visible: true
+  learner_created: true
+- name: hypercar/tickets/__init__.py
+  visible: true
+  learner_created: true
+- name: hypercar/__init__.py
+  visible: true
+  learner_created: true
+- name: __init__.py
+  visible: true
+  learner_created: true
+- name: hypercar/tickets/templatetags/__init__.py
+  visible: true
+  learner_created: true
+- name: hypercar/tickets/templatetags/space_to_underscore.py
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/85/stages/471/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 15 Feb 2021 12:53:06 UTC
+record: 2
