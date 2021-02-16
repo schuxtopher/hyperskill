@@ -720,6 +720,59 @@ files:
         """ Reports success """
         print("#educational_plugin test OK")
   learner_created: false
+- name: hypercar/__init__.py
+  visible: true
+  learner_created: true
+- name: hypercar/tickets/templates/menuPage.html
+  visible: true
+  text: |
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Menu</title>
+    </head>
+    <body>
+
+        <h2> Menu </h2>
+        <ul>
+            {% load space_to_underscore %}
+            {% for service in services %}
+            <li>
+                <a target="_blank" href="/get_ticket/{{ service | lower | space_to_underscore }}">{{ service }}</a>
+            </li>
+            {% endfor %}
+
+        </ul>
+    </body>
+    </html>
+  learner_created: true
+- name: hypercar/tickets/templatetags/__init__.py
+  visible: true
+  learner_created: true
+- name: __init__.py
+  visible: true
+  learner_created: true
+- name: hypercar/tickets/templates/ticket.html
+  visible: true
+  learner_created: true
+- name: hypercar/tickets/templatetags/underscore_to_space.py
+  visible: true
+  text: |
+    from django import template
+    from django.template.defaultfilters import stringfilter
+
+    register = template.Library()
+
+
+    @register.filter
+    @stringfilter
+    def space_to_underscore(value):
+        return value.replace(' ', '_')
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/85/stages/472/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 16 Feb 2021 10:14:08 UTC
 record: -1

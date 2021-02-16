@@ -703,7 +703,7 @@ files:
 - name: hypercar/tickets/templatetags/__init__.py
   visible: true
   learner_created: true
-- name: hypercar/tickets/templatetags/space_to_underscore.py
+- name: hypercar/tickets/templatetags/underscore_to_space.py
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/projects/85/stages/471/implement#comment

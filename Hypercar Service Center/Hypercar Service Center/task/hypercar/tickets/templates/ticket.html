@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ticket {{ ticket_number }}</title>
+</head>
+<body>
+    {% load underscore_to_space%}
+    <h2>{{ service | capfirst | underscore_to_space }}</h2>
+    <div>Your number is {{ ticket_number }}</div>
+    <div>Please wait around {{ minutes_to_wait }} minutes</div>
+</body>
+</html>

@@ -6,5 +6,5 @@ register = template.Library()
 
 @register.filter
 @stringfilter
-def space_to_underscore(value):
-    return value.replace(' ', '_')
+def underscore_to_space(value):
+    return value.replace('_', ' ')

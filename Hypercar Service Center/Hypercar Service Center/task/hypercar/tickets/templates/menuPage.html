@@ -8,10 +8,10 @@
 
     <h2> Menu </h2>
     <ul>
-        {% load space_to_underscore %}
+        {% load underscore_to_space%}
         {% for service in services %}
         <li>
-            <a target="_blank" href="/get_ticket/{{ service | lower | space_to_underscore }}">{{ service }}</a>
+            <a target="_blank" href="/get_ticket/{{ service }}">{{ service | capfirst | underscore_to_space }}</a>
         </li>
         {% endfor %}
 
