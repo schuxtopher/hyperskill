@@ -809,6 +809,98 @@ files:
         """ Reports success """
         print("#educational_plugin test OK")
   learner_created: false
+- name: hypercar/__init__.py
+  visible: true
+  learner_created: true
+- name: hypercar/tickets/templates/ticket.html
+  visible: true
+  text: |
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ticket {{ ticket_number }}</title>
+    </head>
+    <body>
+        {% load underscore_to_space%}
+        <h2>{{ service | capfirst | underscore_to_space }}</h2>
+        <div>Your number is {{ ticket_number }}</div>
+        <div>Please wait around {{ minutes_to_wait }} minutes</div>
+    </body>
+    </html>
+  learner_created: true
+- name: hypercar/tickets/templates/menu.html
+  visible: true
+  text: |
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Menu</title>
+    </head>
+    <body>
+
+        <h2> Menu </h2>
+        <ul>
+            {% load underscore_to_space%}
+            {% for service in services %}
+            <li>
+                <a target="_blank" href="/get_ticket/{{ service }}">{{ service | capfirst | underscore_to_space }}</a>
+            </li>
+            {% endfor %}
+
+        </ul>
+    </body>
+    </html>
+  learner_created: true
+- name: hypercar/tickets/templatetags/underscore_to_space.py
+  visible: true
+  text: |
+    from django import template
+    from django.template.defaultfilters import stringfilter
+
+    register = template.Library()
+
+
+    @register.filter
+    @stringfilter
+    def underscore_to_space(value):
+        return value.replace('_', ' ')
+  learner_created: true
+- name: hypercar/tickets/templatetags/__init__.py
+  visible: true
+  learner_created: true
+- name: __init__.py
+  visible: true
+  learner_created: true
+- name: hypercar/tickets/templates/next.html
+  visible: true
+  learner_created: true
+- name: hypercar/tickets/templates/processing.html
+  visible: true
+  text: |
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Operator Menu</title>
+    </head>
+    <body>
+
+        <div>Change oil queue: {{ queue.change_oil | length }}</div>
+        <div>Inflate tires queue: {{ queue.inflate_tires | length }}</div>
+        <div>Get diagnostic queue: {{ queue.diagnostic | length }}</div>
+
+        <form action="post">{% csrf_token %}
+            <button type="submit">Process next</button>
+        </form>
+
+    </body>
+    </html>
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/85/stages/474/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 16 Feb 2021 18:23:01 UTC
 record: -1

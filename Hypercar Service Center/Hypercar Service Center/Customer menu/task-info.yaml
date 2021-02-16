@@ -688,7 +688,7 @@ files:
         """ Reports success """
         print("#educational_plugin test OK")
   learner_created: false
-- name: hypercar/tickets/templates/menuPage.html
+- name: hypercar/tickets/templates/menu.html
   visible: true
   learner_created: true
 - name: hypercar/tickets/__init__.py

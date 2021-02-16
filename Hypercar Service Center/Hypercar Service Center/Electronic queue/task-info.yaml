@@ -723,7 +723,7 @@ files:
 - name: hypercar/__init__.py
   visible: true
   learner_created: true
-- name: hypercar/tickets/templates/menuPage.html
+- name: hypercar/tickets/templates/menu.html
   visible: true
   text: |
     <!DOCTYPE html>
@@ -775,4 +775,4 @@ status: Solved
 feedback:
   message: Congratulations!
   time: Tue, 16 Feb 2021 10:14:08 UTC
-record: -1
+record: 3
